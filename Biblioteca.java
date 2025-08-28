@@ -3,13 +3,13 @@ import java.util.Scanner;
 class Libro {
     String titulo;
     String autor;
-    int anio;
+    int año;
     boolean disponible = true;
 
-    public Libro(String titulo, String autor, int anio) {
+    public Libro(String titulo, String autor, int año) {
         this.titulo = titulo;
         this.autor = autor;
-        this.anio = anio;
+        this.año = año;
     }
 
     public String prestar() {
